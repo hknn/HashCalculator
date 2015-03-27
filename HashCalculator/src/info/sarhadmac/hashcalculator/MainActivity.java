@@ -23,6 +23,7 @@ public class MainActivity extends Activity
 	String textToGetTheHashesFor;
 	TextView tvMD5, tvSHA1, tvSHA256, tvSHA512;
 	EditText etTextToGetTheHashFor;
+	//test
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -42,8 +43,7 @@ public class MainActivity extends Activity
 		etTextToGetTheHashFor = (EditText) findViewById(R.id.editTextTextToGetTheHashFor);
 		etTextToGetTheHashFor.addTextChangedListener(watcher);
 		tvMD5.setFocusable(true);
-		tvMD5.requestFocus();
-		
+		tvMD5.requestFocus();		
 	}
 	
 	
